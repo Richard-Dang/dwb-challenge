@@ -25,10 +25,10 @@ If you hold any stocks at the end of the time period given, they will be sold at
 2012-09-06,143.35
 
 ##### Output Format (To File, out.csv):
-2012-09-01,500
-2012-09-02,500
-2012-09-05,-1000
-2012-09-06,1000
+-2012-09-01,500
+-2012-09-02,500
+-2012-09-05,-1000
+-2012-09-06,1000
 
 ### Winning
 The winner will be the team that has the highest profit at the end of the data set given. 
