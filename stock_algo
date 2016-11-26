@@ -1,0 +1,20 @@
+text=File.open('in.csv').read
+MAX_STOCK = 1000
+count = 1
+
+output=File.open("out.csv", 'w')
+text.each_line do |line|
+  if (line.split(',')[0]).include? '-'
+    count += 1
+    if (count%2 == 0)
+      out = line.split(',')[0].to_s + ',' + '500'
+
+    else
+      out = line.split(',')[0].to_s + ',' + '-500'
+    end
+    output.write(out.to_s+"\n")
+  end
+
+end
+
+
